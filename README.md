@@ -1,12 +1,22 @@
-# React + Vite
+# DevTinder-web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Created a Vite + React Project
+    - React Command: npm create vite@latest devTinder-web -- --template react 
+    - npm install - install all the dependencies
+    - npm run dev
 
-Currently, two official plugins are available:
+- Tailwind & Dazy UI for building the application
+    - Tailwind Commnd : npm install tailwindcss @tailwindcss/vite
+        - A vite.config.js file is created
+        - Add @import "tailwindcss" - index.css
+    
+    - Design Library : Component Library - Compatible with tailwind
+        - Use it as a Plug In
+        - Command: npm i -D daisyui@latest
+        - In index.css - @plugin "daisyui";
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add NavBar Component to App.jsx
+    
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
